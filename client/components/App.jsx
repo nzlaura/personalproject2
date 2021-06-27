@@ -1,10 +1,13 @@
 import React from 'react'
 
+// component imports
+import Title from './Title'
+
 function App () {
   return (
-    <div>
-      <h1>Widgets for the win!</h1>
-    </div>
+    <>
+      <Title />
+    </>
   )
 }
 
