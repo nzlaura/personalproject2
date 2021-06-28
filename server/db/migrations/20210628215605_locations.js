@@ -1,8 +1,11 @@
+exports.up = function (knex) {
+  return knex.schema.createTable('locations', (table) => {
+    table.increments('id').primary()
+    table.string('name')
+    table.integer('shared_id')
+  })
+}
 
-exports.up = function(knex) {
-  
-};
-
-exports.down = function(knex) {
-  
-};
+exports.down = function (knex) {
+  return knex.schema.dropTable('locations')
+}
