@@ -41,7 +41,7 @@ return (
          Anaphylaxis Plan
         </Typography>
         <Typography variant="h5" component="h2">
-          be{bull}nev{bull}o{bull}lent
+          Anaphylaxis 
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
           adjective
