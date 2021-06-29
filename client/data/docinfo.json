@@ -1,13 +1,13 @@
 {
     "doctors":[
-        {"id": 101, "name": "Dr Rohan Ameratunga", "Location": "Auckland", "Practice": "Grafton Specialists", "Contact": "reception@allergyspecialist.com", "link": "www.allergyspecialist.co.nz" },
-        {"id": 102, "name": "Dr Andrew Baker", "Location": "Auckland", "Practice": "Waitemata Allergy Clinic", "Contact": "consult@wsurg.co.nz", "link": "www.allergyspecialistdoctor.co.nz" },
-        {"id": 103, "name": "Dr Jan Sinclair", "Location": "Auckland", "Practice": "Eastmed", "Contact": "None listed", "link": "None listed"},
-        {"id": 104, "name": "Dr Suniti Bisht", "Location": "Hamilton", "Practice": "Kids Allergy Hamilton", "Contact": "admin@kidsallergy.co.nz", "link": "www.kidsallergy.co.nz/" },
-        {"id": 105, "name": "Dr Graham Currie", "Location": "Hamilton", "Practice": "Waikato Allergy Clinic", "Contact": "None listed", "link": "none listed" },
-        {"id": 105, "name": "Dr Stanley Tosh", "Location": "Wellington", "Practice": "Riddiford Medical Centre", "Contact": "immunologynz@gmail.com", "link": "none listed" },
-        {"id": 106, "name": "Dr Christine Van Dalen", "Location": "Wellington", "Practice": "Wadestown Allergy Clinic", "Contact": "None listed", "link": "www.wadestownallergy.co.nz" },
-        {"id": 107, "name": "Dr Ignatius Chua", "Location": "Nelson", "Practice": "Rheumatology Associates", "Contact": "rheumatologyassoc@gmail.com", "link": "None listed" },
-        {"id": 108, "name": "Dr Garth Smith", "Location": "Nelson", "Practice": "Paediatrics Ltd", "Contact": "info@kidsdoc.co.nz", "link": "www.kidsdoc.co.nz" }
+        {"id": 101, "name": "Dr Rohan Ameratunga", "location": "Auckland", "practice": "Grafton Specialists", "contact": "reception@allergyspecialist.com", "link": "www.allergyspecialist.co.nz" },
+        {"id": 102, "name": "Dr Andrew Baker", "location": "Auckland", "practice": "Waitemata Allergy Clinic", "contact": "consult@wsurg.co.nz", "link": "www.allergyspecialistdoctor.co.nz" },
+        {"id": 103, "name": "Dr Jan Sinclair", "location": "Auckland", "practice": "Eastmed", "contact": "None listed", "link": "None listed"},
+        {"id": 104, "name": "Dr Suniti Bisht", "location": "Hamilton", "practice": "Kids Allergy Hamilton", "contact": "admin@kidsallergy.co.nz", "link": "www.kidsallergy.co.nz/" },
+        {"id": 105, "name": "Dr Graham Currie", "location": "Hamilton", "practice": "Waikato Allergy Clinic", "contact": "None listed", "link": "none listed" },
+        {"id": 105, "name": "Dr Stanley Tosh", "location": "Wellington", "practice": "Riddiford Medical Centre", "contact": "immunologynz@gmail.com", "link": "none listed" },
+        {"id": 106, "name": "Dr Christine Van Dalen", "location": "Wellington", "practice": "Wadestown Allergy Clinic", "contact": "None listed", "link": "www.wadestownallergy.co.nz" },
+        {"id": 107, "name": "Dr Ignatius Chua", "location": "Nelson", "practice": "Rheumatology Associates", "contact": "rheumatologyassoc@gmail.com", "link": "None listed" },
+        {"id": 108, "name": "Dr Garth Smith", "location": "Nelson", "practice": "Paediatrics Ltd", "contact": "info@kidsdoc.co.nz", "link": "www.kidsdoc.co.nz" }
     ]
 }
