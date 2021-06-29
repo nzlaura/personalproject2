@@ -1,20 +1,24 @@
 import React from 'react'
 // import { Route } from 'react-router-dom'
 
-// component imports
+// imports to be shown across all routes
 // import Title from './Title'
 import Nav from './Nav'
+import Sidebar from './Sidebar'
 
 // import cards for home page
 import AsciaCard from './AsciaCard'
 import EpipenCard from './EpipenCard'
 import ChildDisabilityCard from './ChildDisabilityCard'
-import Sidebar from './Sidebar'
 import SpecialistCard from './SpecialistCard'
 import RecipeCard from './RecipesCard'
 
-// import components for routes
-import Specialists from './Specialists'
+//  import components for routes
+// import Specialists from './Specialists'
+// import AsciaPage from './AsciaPage'
+// import EpipenPage from './EpipenPage'
+// import Recipes from './Recipes'
+// import CDAPage from './CDAPage'
 
 function App () {
   return (

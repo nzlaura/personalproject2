@@ -1,7 +1,7 @@
 // use json to list allergy specialists
-import React, { useState } from 'react'
+import React from 'react'
 
-import docData from '../data/docinfo.json'
+// import docData from '../data/docinfo.json'
 
 function Specialists (props) {
   const docData = {
