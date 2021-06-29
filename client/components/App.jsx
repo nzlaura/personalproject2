@@ -9,8 +9,10 @@ import Ascia from './Ascia'
 function App () {
   return (
     <>
-      <Route path="/" component={Nav} />
-      <Route path="/ASCIA" component={Ascia} />
+      {/* <Route path="/" component={Nav} /> */}
+      <Nav />
+      <Title />
+      <Ascia />
     </>
   )
 }

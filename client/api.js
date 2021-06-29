@@ -7,3 +7,11 @@ export function getWidgets () {
     .get(widgetUrl)
     .then(response => response.body)
 }
+
+const asciaUrl = '/ASCIA'
+
+export function getAscia () {
+  return request
+    .get(asciaUrl)
+    .then(response => response.body)
+}
