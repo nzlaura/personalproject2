@@ -2,7 +2,7 @@ import React from 'react'
 
 function Title () {
   return (
-    <h1>Information will go here</h1>
+    <h2>Resources, Information and Recipes for navigating Allergies</h2>
   )
 }
 

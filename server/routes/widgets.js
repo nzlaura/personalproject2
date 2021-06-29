@@ -14,4 +14,13 @@ router.get('/', (req, res) => {
     })
 })
 
+router.get('/specialists', (req, res) => {
+  db.getDoctors()
+    .then(doctors => {
+      console.log('specialists')
+      return null
+    })
+    .catch(err => console.log(err))
+})
+
 module.exports = router
