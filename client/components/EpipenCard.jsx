@@ -26,7 +26,7 @@ const useStyles = makeStyles({
   }
 })
 
-function Epipen () {
+function EpipenCard () {
   const classes = useStyles()
 
   return (
@@ -61,4 +61,4 @@ function Epipen () {
   )
 }
 
-export default Epipen
+export default EpipenCard

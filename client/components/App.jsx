@@ -4,16 +4,18 @@ import React from 'react'
 // component imports
 import Title from './Title'
 import Nav from './Nav'
-import Ascia from './Ascia'
-import Epipen from './Epipen'
+import AsciaCard from './AsciaCard'
+import EpipenCard from './EpipenCard'
+import ChildDisabilityCard from './ChildDisabilityCard'
 
 function App () {
   return (
     <>
       <Nav />
       <Title />
-      <Ascia />
-      <Epipen />
+      <AsciaCard />
+      <EpipenCard />
+      <ChildDisabilityCard />
     </>
   )
 }
