@@ -8,6 +8,7 @@ import AsciaCard from './AsciaCard'
 import EpipenCard from './EpipenCard'
 import ChildDisabilityCard from './ChildDisabilityCard'
 import Sidebar from './Sidebar'
+import SpecialistCard from './SpecialistCard'
 
 function App () {
   return (
@@ -18,6 +19,7 @@ function App () {
       <AsciaCard />
       <EpipenCard />
       <ChildDisabilityCard />
+      <SpecialistCard />
     </>
   )
 }
