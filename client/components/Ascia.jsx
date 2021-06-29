@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { makeStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card'
 import CardActions from '@material-ui/core/CardActions'
@@ -28,32 +29,29 @@ function Ascia () {
 
   return (
     <>
-      <h2>Navigating Allergy Plans</h2>
-      <p>When you or your child is diagnosed with a food allergy, your GP or
-        specialist will likely write you an action plan. Within NZ it is common to
-        use an ASCIA action plan. Here you can see the three different kinds offered
-      <a href src="https://www.allergy.org.au/hp/anaphylaxis/ascia-action-plan-for-anaphylaxis">Link to ASCIA official website here</a>
-      </p>
 
       <Card className={classes.root}>
         <CardContent>
           <Typography className={classes.title} color="textSecondary" gutterBottom>
-         Anaphylaxis Plan
+          Navigating Allergy Plans
           </Typography>
           <Typography variant="h5" component="h2">
-          Anaphylaxis
+          Anaphylaxis Plan
           </Typography>
           <Typography className={classes.pos} color="textSecondary">
-          adjective
+          When you or your child is diagnosed with a food allergy, your GP or
+        specialist will likely write you an action plan. Within NZ it is common to
+        use an ASCIA action plan. Here you can see the three different kinds offered
           </Typography>
           <Typography variant="body2" component="p">
-          well meaning and kindly.
+              These action plans have important information- symptoms to look out for,
+              allergens, and treatment plan information.
             <br />
-            {'"a benevolent smile"'}
+
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small">Learn More</Button>
+          <Button size="small"><a href="https://www.allergy.org.au/hp/anaphylaxis/ascia-action-plan-for-anaphylaxis">Learn More</a></Button>
         </CardActions>
       </Card>
     </>
