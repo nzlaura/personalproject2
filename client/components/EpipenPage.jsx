@@ -1,9 +1,12 @@
 // page for more detailed info about epipens
 import React from 'react'
-
+import { Typography } from '@material-ui/core'
 function EpipenPage () {
   return (
-    <p>Information about epipens, ACC reimbursement and more info on epiclub</p>
+    <>
+      <Typography variant="h3">Epi Pens and the Epi Club</Typography>
+      <img src="https://www.allergicliving.com/wp-content/uploads/2020/03/epipen-2pak-540x280.png" />
+    </>
   )
 }
 
