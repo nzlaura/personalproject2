@@ -11,7 +11,7 @@ import AsciaCard from './AsciaCard'
 import EpipenCard from './EpipenCard'
 import ChildDisabilityCard from './ChildDisabilityCard'
 import SpecialistCard from './SpecialistCard'
-import RecipesCard from './RecipesCard'
+// import RecipesCard from './RecipesCard'
 
 //  import components for routes
 import Specialists from './Specialists'
