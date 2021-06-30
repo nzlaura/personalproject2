@@ -3,7 +3,7 @@ import React from 'react'
 
 function EpipenPage () {
   return (
-    <p>Placeholder for epipen info page</p>
+    <p>Information about epipens, ACC reimbursement and more info on epiclub</p>
   )
 }
 

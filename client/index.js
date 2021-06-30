@@ -1,15 +1,15 @@
 // import { Router } from 'express'
 import React from 'react'
 import { render } from 'react-dom'
-// import { Router } from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom'
 
 import App from './components/App'
 
 document.addEventListener('DOMContentLoaded', () => {
   render(
-
-    <App />,
-
+    <Router>
+      <App />,
+    </ Router>,
     document.getElementById('app')
   )
 })
