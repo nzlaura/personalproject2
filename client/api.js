@@ -4,6 +4,7 @@ const recipeUrl = '/api/v1/widgets/'
 
 export function getRecipes () {
   return request
-    .get(recipeUrl)
-    .then(response => response.body)
+    .get('')
+    .then((response) => (response.body))
+    .catch(e => console.log(e))
 }

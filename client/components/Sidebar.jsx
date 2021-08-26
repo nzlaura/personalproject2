@@ -5,7 +5,7 @@ import Tabs from '@material-ui/core/Tabs'
 import Tab from '@material-ui/core/Tab'
 import Typography from '@material-ui/core/Typography'
 import Box from '@material-ui/core/Box'
-// import { Link } from 'react-dom'
+import { Link } from 'react-router-dom'
 
 function TabPanel (props) {
   const { children, value, index, ...other } = props
@@ -77,7 +77,7 @@ export default function Sidebar () {
         <Tab label="Recipes" {...a11yProps(4)} />
       </Tabs>
       <TabPanel value={value} index={0}>
-        ASCIA Plans
+        <Link to='/ASCIA'>ASCIA Plans</Link>
 
       </TabPanel>
       <TabPanel value={value} index={1}>

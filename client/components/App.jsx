@@ -17,7 +17,7 @@ import SpecialistCard from './SpecialistCard'
 import Specialists from './Specialists'
 import AsciaPage from './AsciaPage'
 import EpipenPage from './EpipenPage'
-import Recipes from './Recipes'
+// import Recipes from './Recipes'
 import CDAPage from './CDAPage'
 
 function App () {
@@ -32,7 +32,7 @@ function App () {
       {/* <Route exact path="/" component={RecipesCard} /> */}
       <Route exact path="/specialists" component={Specialists} />
       <Route exact path="/epipen" component={EpipenPage} />
-      <Route exact path="/recipes" component={Recipes} />
+      {/* <Route exact path="/recipes" component={Recipes} /> */}
       <Route exact path="/ascia" component={AsciaPage} />
       <Route exact path="/CDA" component={CDAPage} />
     </>
